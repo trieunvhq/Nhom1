@@ -12,8 +12,7 @@ namespace QuanLyQuanAnNhanh.DTO
         private int maMonAn;
         private string tenMonAn;
         private Decimal donGiaMonAn;
-
-        
+       
 
         private MonAn() { }
 

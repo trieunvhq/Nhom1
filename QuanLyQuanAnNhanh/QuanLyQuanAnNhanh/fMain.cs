@@ -257,7 +257,7 @@ namespace QuanLyQuanAnNhanh
                     }
                     catch
                     {
-                        MessageBox.Show("Lỗi thêm Order. Kiểm tra lại kết nối!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Lỗi thêm Order. Đề nghị kiểm tra lại kết nối!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
             }
