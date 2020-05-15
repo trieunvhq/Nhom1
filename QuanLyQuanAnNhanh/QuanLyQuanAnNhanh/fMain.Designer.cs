@@ -119,7 +119,7 @@
             this.MenuAcountDangXuat});
             this.MenuAcount.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MenuAcount.Name = "MenuAcount";
-            this.MenuAcount.Size = new System.Drawing.Size(76, 21);
+            this.MenuAcount.Size = new System.Drawing.Size(75, 21);
             this.MenuAcount.Text = "Tài khoản";
             // 
             // MenuAcountInfo
@@ -156,7 +156,7 @@
             // 
             this.dtgvDonHangMain.AllowUserToAddRows = false;
             this.dtgvDonHangMain.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dtgvDonHangMain.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
+            this.dtgvDonHangMain.BackgroundColor = System.Drawing.SystemColors.Highlight;
             this.dtgvDonHangMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvDonHangMain.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.tenMon,
@@ -328,6 +328,7 @@
             // dtgvOrderMain
             // 
             this.dtgvOrderMain.AllowUserToAddRows = false;
+            this.dtgvOrderMain.BackgroundColor = System.Drawing.SystemColors.Highlight;
             this.dtgvOrderMain.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgvOrderMain.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.maOrder,
